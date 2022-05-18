@@ -57,7 +57,7 @@ class PyTest(TestCommand):
 
 
 setup(
-    name="arctic",
+    name="arcticp",
     version="1.80.5",
     author="Man AHL Technology",
     author_email="ManAHLTech@ahl.com",
