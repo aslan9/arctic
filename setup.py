@@ -57,7 +57,7 @@ class PyTest(TestCommand):
 
 
 setup(
-    name="arctic",
+    name="arcticp",
     version="1.80.5",
     author="Man AHL Technology",
     author_email="ManAHLTech@ahl.com",
@@ -71,15 +71,15 @@ setup(
     cmdclass={'test': PyTest},
     setup_requires=["numpy",
                     "setuptools-git",
+                    "cython",
                    ],
     install_requires=["decorator",
-                      "cython",
                       "enum-compat",
                       "mock",
                       "mockextras",
                       "pandas",
                       "numpy",
-                      "pymongo>=3.6.0, <= 3.11.0",
+                      "pymongo>=3.6.0, <4.0.0",
                       "pytz",
                       "tzlocal",
                       "lz4",
